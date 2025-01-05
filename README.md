@@ -11,25 +11,7 @@ A Python-based system that transcribes phone calls with speaker detection, gener
 
 
 ## 🚀 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/call-transcriber.git
-cd call-transcriber
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Get required authentication:
+ Get required authentication:
 - Create an account on [HuggingFace](https://huggingface.co/)
 - Accept the user agreement for [pyannote/speaker-diarization](https://huggingface.co/pyannote/speaker-diarization)
 - Get your access token from [HuggingFace settings](https://huggingface.co/settings/tokens)
